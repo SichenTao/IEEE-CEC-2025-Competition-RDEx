@@ -1,0 +1,5 @@
+RDEx is built upon CL-SRDE and fully incorporates all strategies from RDEx(SOP).
+This includes the use of an elite ranking strategy to strengthen the guidance of the best individuals, thereby shifting the algorithm’s focus more toward exploitation in the later stages of evolution.
+To mitigate premature convergence and maintain population diversity, a Cauchy distribution-based dimension-wise random jump mechanism is introduced in the crossover phase, enabling continuous improvement even in highly localized search regions.
+
+After conducting a limited set of parameter tuning experiments, the results demonstrate that RDEx significantly outperforms both the champion and runner-up algorithms from CEC24CSOP in terms of convergence speed and solution accuracy.
