@@ -1,0 +1,8 @@
+RDEx is built upon the CEC24CMOP-winning algorithm DESDE, with several key modifications.
+The polynomial update strategy has been removed, and a Cauchy distribution-based dimension-wise random jump mechanism has been introduced in the crossover phase.
+Additionally, individuals 'rand1' and 'rand2' are sorted based on fitness, ensuring that the differential operation is consistently guided by the better-performing individual.
+
+For boundary constraint violations, RDEx adopts a partial reinitialization strategy, where half of the dimensions are reinitialized using the corresponding values from the parent individual.
+
+Through these improvements, RDEx not only enhances the solution accuracy on the CEC25CMOP benchmark set, but also reduces computational cost when addressing complex constrained multi-objective optimization problems.
+

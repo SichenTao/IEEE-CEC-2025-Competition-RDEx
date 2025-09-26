@@ -1,0 +1,7 @@
+RDEx is an improved algorithm based on LSRTDE, designed to enhance convergence and local search capabilities.
+While the original algorithm demonstrates outstanding global search ability, its relatively slow convergence speed often results in unsatisfactory solution accuracy.
+To address this, RDEx introduces an elite ranking strategy during the later stages of convergence to strengthen the guidance of the best individuals, thus shifting the algorithm’s focus more toward exploitation.
+
+To prevent premature convergence and the rapid loss of population diversity, a Cauchy distribution-based dimension-wise random jump strategy is incorporated during crossover. This ensures that the algorithm can continue to improve even within narrowly defined local search regions.
+
+By preserving the strong exploration ability of the original algorithm and successfully integrating state-of-the-art local search mechanisms, RDEx significantly improves the solution accuracy of advanced differential evolution algorithms on every unsolved instance within the CEC25SOP benchmark set.
